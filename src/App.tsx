@@ -1,14 +1,7 @@
-import { Button } from '@mui/material';
+import AppRouter from './routes/AppRouter';
 
 function App() {
-  return (
-    <div>
-      <h1>UniMart</h1>
-      <Button variant="contained" color="primary">
-        Test Button
-      </Button>
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;
